@@ -6,7 +6,7 @@ services:
     container_name: newsnow
     restart: always
     ports:
-      - '4444:4444'
+      - '5532:5432'
     environment:
       - G_CLIENT_ID=Ov23liD5OCkzkE6XsyPJ
       - G_CLIENT_SECRET=b8138abb01dfac10705ee2c0cc5802ffb64aa624
